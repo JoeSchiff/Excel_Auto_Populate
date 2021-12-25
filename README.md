@@ -68,7 +68,7 @@ To create a dropdown list click on the Data section (on the ribbon), then Data V
 
 
 <br/><br/>
-#### Alright, now the fun part. The basic order of events for our formulas will be:
+#### "get_param" sheet. The basic order of events for our formulas will be:
 1. Get the industry name
 2. Find that industry name in the table and return the column letter
 3. Count the total number of rows (parameters) for that column
@@ -80,6 +80,8 @@ Many of these steps can be combined, but I chose to keep them separate in order 
 
 <br/><br/>
 ### 1. Get the industry name
+Column name: Industry
+
 
 This is an easy one. Get the industry from the sample_log sheet. If the corresponding cell from the sample_log sheet is empty, then leave blank.
 
@@ -88,7 +90,8 @@ This is an easy one. Get the industry from the sample_log sheet. If the correspo
 
 
 <br/><br/>
-### 2. Find that industry name in the table and return the column letter
+### 2. Find that industry name in the iu_param_table and return the column letter
+Column name: Column Letter
 
 Use the MATCH function and supply it with the industry name and the table from the sheet named "iu_param_table". The trailing zero specifies an exact match.
 However, the MATCH function returns a number to designate the position in the table. Instead, we want the column letter for the sheet. By adding 65 to the result and converting it with the CHAR function, we get the appropriate column letter. If you don't start your table on column B then you will need to use a number different than 65.
@@ -101,6 +104,7 @@ If the cell from step 1 is blank, then repeat what is in the cell above.
 
 <br/><br/>
 ### 3. Count the total number of rows (parameters) for that column
+Column name: Num of Params
 
 Now we can count the number of items in that column. This will allow us to make our own FOR loop using something similar to a coordinate system. It will work like this:
 Column 3, row 3
@@ -126,6 +130,7 @@ Now we have the number of parameters for that column.
 
 <br/><br/>
 ### 4. Count down from step 3
+Column name: Remaining Num of Params
 
 This step will be used to loop through all the parameters. We’ll start with the number supplied from the previous column and decrement it until we reach zero (no parameters remaining).
 
@@ -136,6 +141,7 @@ This step will be used to loop through all the parameters. We’ll start with th
 
 <br/><br/>
 ### 5. Lookup the parameter using the number from step 4 and the column letter from step 2
+Column name: Parameter
 
 We are using the column letter supplied by cell C3 and the row number supplied by E3. We have to add 2 to it because the data in the table starts on row 3. Again, we are using the INDIRECT function to refer to the sheet named "iu_param_table".
 
