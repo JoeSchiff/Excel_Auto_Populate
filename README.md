@@ -1,7 +1,7 @@
 ## How to auto populate a varying / arbitrary / unknown number of cells in Excel without VBA
 
 to do:\
-VBA alternate\
+VBA alternate: "C:\Users\jschiffler\Desktop\text_n_stuff\old_bullshit\old_2021\vba_sl.xlsm"\
 gif\
 image for each step -\
 use col names for each step
