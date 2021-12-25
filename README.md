@@ -68,7 +68,7 @@ To create a dropdown list click on the Data section (on the ribbon), then Data V
 
 
 <br/><br/>
-#### Create "get_param" sheet. The basic order of events for our formulas will be:
+### Create "get_param" sheet. The basic order of events for our formulas will be:
 1. Get the industry name
 2. Find that industry name in the table and return the column letter
 3. Count the total number of rows (parameters) for that column
