@@ -17,7 +17,8 @@ Automatically populate cells based on a selection from a dropdown list:
 [GIF]
 
 <br/><br/>
-The output can be of various lengths and repeated indefinitely:
+The output can be of **various lengths** and repeated indefinitely:
+
 <img src="https://github.com/JoeUgly/How_to/blob/master/Screenshot%20(10).png" width="1000" height="562">
 
 
