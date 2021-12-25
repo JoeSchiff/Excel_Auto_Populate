@@ -37,7 +37,7 @@ You can and should, if you want to use this technique only at one specific locat
 <br/><br/>
 ## Detailed description
 
-The following sections provide a walkthrough for recreating this woorkbook's functionality. However, I strongly suggest using the workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs. These sections should provide the necessary insight.
+The following sections provide a walkthrough for recreating this woorkbook's functionality. However, I strongly suggest using the "simple_example" workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs. These sections should provide the necessary insight.
 
 <br/><br/>
 #### Overview
