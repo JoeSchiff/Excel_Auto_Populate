@@ -25,7 +25,8 @@ The output can be of various lengths and repeated indefinitely:
 <br/><br/><br/>
 ### Tested on:
 Microsoft Excel 2016 and LibreOffice Calc 7.1.4.2.\
-Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions in the "spreadsheets" directory.\
+Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions in the "spreadsheets" directory.
+
 Use the .xlsx format if you're using Excel.
 
 
@@ -37,7 +38,8 @@ You can and should, if you want to use this technique only at one specific locat
 <br/><br/>
 ## Detailed description
 
-The following sections provide a walkthrough for recreating this woorkbook's functionality. However, I strongly suggest using the "simple_example" workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.\
+The following sections provide a walkthrough for recreating this woorkbook's functionality. However, I strongly suggest using the "simple_example" workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
+
 MS Excel: spreadsheets/simple_example.xlsx\
 LibreOffice Calc: spreadsheets/simple_example.ods
 
