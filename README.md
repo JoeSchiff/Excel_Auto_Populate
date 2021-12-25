@@ -3,10 +3,10 @@
 to do:\
 VBA alternate\
 gif\
-image for each step\
+image for each step -\
+use col names for each step
 alternate improved version\
 fix col names, colors, notes, extend rows, data val for IUs\
-separate repos\
 files names
 
 
