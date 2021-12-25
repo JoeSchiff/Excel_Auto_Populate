@@ -1,12 +1,12 @@
 ## How to auto populate a varying / arbitrary / unknown number of cells in Excel without VBA
 
 to do:\
-VBA alternate: "C:\Users\jschiffler\Desktop\text_n_stuff\old_bullshit\old_2021\vba_sl.xlsm"\
+VBA alternate +\
 gif\
 image for each step -\
 use col names for each step\
 alternate improved version\
-fix col names, colors, notes, extend rows, data val for IUs\
+fix col names, colors, notes, extend rows, data val for IUs +\
 files names
 
 
@@ -25,7 +25,7 @@ The output can be of various lengths and repeated indefinitely:
 <br/><br/><br/>
 ### Tested on:
 Microsoft Excel 2016 and LibreOffice Calc 7.1.4.2.\
-Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions.\
+Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions in the "spreadsheets" directory.\
 Use the .xlsx format if you're using Excel.
 
 
@@ -54,7 +54,6 @@ Our workbook will have 3 sheets. The first (named sample_log) will be where we s
 
 <br/><br/>
 #### Create the industry and parameter table
-
 To get started we are going to put all of the industries and parameters on a separate sheet, so that it is out of the way. We are going to name this sheet "iu_param_table".
 
 
