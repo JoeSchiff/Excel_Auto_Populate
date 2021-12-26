@@ -1,13 +1,10 @@
 ## How to auto populate a varying / arbitrary / unknown number of cells in Excel without VBA
 
 to do:\
-VBA alternate +\
-gif\
-image for each step -\
+gif +\
 use col names for each step +\
 full improved version\
-fix col names, colors, notes, extend rows, data val for IUs +\
-files names
+FAQ: col length, num of cols, header names, sheet names\
 
 
 <br/>
