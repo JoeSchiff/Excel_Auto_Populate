@@ -14,6 +14,7 @@ files names
 
 ### Description:
 Automatically populate cells based on a selection from a dropdown list:
+
 ![](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/assets/usage.gif)
 
 
