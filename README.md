@@ -35,7 +35,7 @@ Use the .xlsx format if you're using Excel.
 
 <br/><br/>
 #### Why not use VBA?
-You can and should, if you want to use this technique only at one specific location. An example of this is located at "spreadsheets/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column while also preserving the format I wanted to use. 
+You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column while also preserving the format I wanted to use. 
 
 
 <br/><br/>
