@@ -1,8 +1,6 @@
 ## How to auto populate a varying / arbitrary / unknown number of cells in Excel without VBA
 
 to do:\
-gif +\
-use col names for each step +\
 full improved version\
 FAQ: col length, num of cols, header names, sheet names
 
@@ -170,19 +168,20 @@ I will supply a full version of the workbook I used for this example. It contain
 
 
 
-
+<br/><br/><br/>
 ## FAQ
 
 ### How to add more columns to iu_param_table?
+
 You must edit the formula in "Column Letter" to include more columns in the iu_param_table.\
 Example (notice the "Z" near the end):
 `=IF(B3="", C1, CHAR(65+MATCH(B3, iu_param_table!$B$2:$Z$2, 0)))`
 
-Note:
+Note:\
 The `CHAR + 65` method can only be used on single character column letters. Colunmns AA and beyond would need a new plan.
 
 
-
+<br/><br/>
 ### How to add more rows to iu_param_table?
 
 You must edit the formula in "Num of Params" to include more rows in the iu_param_table.\
@@ -191,7 +190,18 @@ Example (notice the "50" near the end):
 
 
 
+<br/><br/>
+### How to change the sheet names?
+
+You must edit the formulas on "get_param". Replace the default sheet names ("sample_log", "iu_param"table") with new names.\
 
 
 
 
+
+
+
+
+
+
+<br/><br/>
