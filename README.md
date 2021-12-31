@@ -1,8 +1,8 @@
 ## How to auto populate a varying / arbitrary / unknown number of cells in Excel without VBA
 
 to do:\
-full improved version\
-FAQ: col length, num of cols, header names, sheet names
+full improved version +\
+FAQ: col length, num of cols, header names, sheet names +
 
 
 <br/>
@@ -31,7 +31,7 @@ Use the .xlsx format if you're using Excel.
 
 <br/><br/>
 #### Why not use VBA?
-You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column, while also preserving the format I wanted to use. 
+You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/others/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column, while also preserving the format I wanted to use. 
 
 
 <br/><br/>
@@ -163,7 +163,7 @@ Paste this into the cell next to the industry that we selected on the "sample_lo
 Optional: 
 You may notice that column C of sheet "get_param" has data extending down for all the rows that contain formulas. Unfortunately, there is no easy way of preventing this (due to circular logic errors) without making this example even more complicated. 
 
-I will supply a full version of the workbook I used for this example. It contains slightly different formulas, which prevent that column letter from repeating forever. 
+I supplied a full version of the workbook I personally use at "spreadsheets/others/complicated_example.xlsm". It contains different formulas, which prevent that column letter from repeating forever, as well as many more features.
 
 
 
@@ -193,7 +193,7 @@ Example (notice the "50" near the end):
 <br/><br/>
 ### How to change the sheet names?
 
-You must edit the formulas on "get_param". Replace the default sheet names ("sample_log", "iu_param"table") with new names.\
+You must edit almost all of the formulas on the "get_param" sheet. Replace the default sheet names ("sample_log", "iu_param"table") with new names.\
 
 
 
