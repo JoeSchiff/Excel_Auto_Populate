@@ -99,7 +99,7 @@ However, the MATCH function returns a number to designate the position in the ta
 
 If the cell from step 1 is blank, then repeat what is in the cell above.
 
-`=IF(B3="", C2, CHAR(65+MATCH(B3, iu_param_table!$B$2:$O$2, 0)))`
+`=IF(B3="", C2, CHAR(65+MATCH(B3, iu_param_table!$B$2:$E$2, 0)))`
 
 
 
@@ -166,6 +166,28 @@ Optional:
 You may notice that column C of sheet "get_param" has data extending down for all the rows that contain formulas. Unfortunately, there is no easy way of preventing this (due to circular logic errors) without making this example even more complicated. 
 
 I will supply a full version of the workbook I used for this example. It contains slightly different formulas, which prevent that column letter from repeating forever. 
+
+
+
+
+
+## FAQ
+
+### How to add more columns to iu_param_table?
+You must edit the formula in "Column Letter" to include more columns in the iu_param_table.\
+Example (notice the "Z" near the end):
+`=IF(B3="", C1, CHAR(65+MATCH(B3, iu_param_table!$B$2:$Z$2, 0)))`
+
+Note:
+The `CHAR + 65` method can only be used on single character column letters. Colunmns AA and beyond would need a new plan.
+
+
+
+### How to add more rows to iu_param_table?
+
+You must edit the formula in "Num of Params" to include more rows in the iu_param_table.\
+Example (notice the "50" near the end):
+`=IF(sample_log!B3="", "", COUNTA(INDIRECT("iu_param_table!"&C3 & 3):INDIRECT("iu_param_table!"&C3 & 50)))`
 
 
 
