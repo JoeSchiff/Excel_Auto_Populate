@@ -32,13 +32,13 @@ Use the .xlsx format if you're using Excel.
 
 <br/><br/>
 #### Why not use VBA?
-You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column while also preserving the format I wanted to use. 
+You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column, while also preserving the format I wanted to use. 
 
 
 <br/><br/>
 ## Detailed description
 
-The following sections provide a walkthrough for recreating this woorkbook's functionality. However, I strongly suggest using the "simple_example" workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
+The following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the "simple_example" workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
 
 MS Excel: spreadsheets/simple_example.xlsx\
 LibreOffice Calc: spreadsheets/simple_example.ods
