@@ -14,11 +14,14 @@ The output can be of **various lengths** and repeated indefinitely:
 <br/><br/>
 
 
+* [Tested on:](https://github.com/JoeUgly/Excel_Auto_Populate/edit/master/README.md#Tested-on)
+
+
 
 
 
 <br/><br/><br/>
-### Tested on:
+### Tested on
 Microsoft Excel 2016 and LibreOffice Calc 7.1.4.2.\
 Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions in the "spreadsheets" directory.
 
