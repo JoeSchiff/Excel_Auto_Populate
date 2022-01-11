@@ -30,10 +30,6 @@ Since Excel uses an exclamation mark to designate a sheet name and LibreOffice C
 Use the .xlsx format if you're using Excel.
 
 
-<br/><br/>
-#### Why not use VBA?
-You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/others/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column, while also preserving the format I wanted to use. 
-
 
 <br/><br/>
 ## Detailed description
@@ -203,7 +199,9 @@ You must edit almost all of the formulas on the "get_param" sheet. Replace the d
 No additional steps are necessary.
 
 
-
+<br/><br/>
+### Why not use VBA?
+You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/others/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column, while also preserving the format I wanted to use. 
 
 
 
