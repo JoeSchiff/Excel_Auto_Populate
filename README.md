@@ -14,7 +14,7 @@ The output can be of **various lengths** and repeated indefinitely:
 <br/><br/>
 
 
-* [Tested on](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/README.md#Tested on)
+* [Tested on](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/README.md#Tested-on)
 
 
 
