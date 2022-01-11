@@ -13,7 +13,7 @@ The output can be of **various lengths** and repeated indefinitely:
 
 <br/><br/>
 
-
+### Table of Contents
 * [Tested on](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/README.md#Tested-on)
 * [Detailed description](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/README.md#Detailed-description)
 * [FAQ](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/README.md#FAQ)
