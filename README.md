@@ -169,8 +169,8 @@ I supplied a full version of the workbook I personally use at "spreadsheets/othe
 
 ### How to add more columns to iu_param_table?
 
-You must edit the formula in "Column Letter" to include more columns in the iu_param_table.\
-Example (notice the "Z" near the end):
+You must edit the formula in "Column Letter" (get_param sheet) to include more columns in the iu_param_table.\
+Example (notice the "Z" near the end):\
 `=IF(B3="", C1, CHAR(65+MATCH(B3, iu_param_table!$B$2:$Z$2, 0)))`
 
 Note:\
@@ -180,8 +180,8 @@ The `CHAR + 65` method can only be used on single character column letters. Colu
 <br/><br/>
 ### How to add more rows to iu_param_table?
 
-You must edit the formula in "Num of Params" to include more rows in the iu_param_table.\
-Example (notice the "50" near the end):
+You must edit the formula in "Num of Params" (get_param sheet) to include more rows in the iu_param_table.\
+Example (notice the "50" near the end):\
 `=IF(sample_log!B3="", "", COUNTA(INDIRECT("iu_param_table!"&C3 & 3):INDIRECT("iu_param_table!"&C3 & 50)))`
 
 
@@ -189,7 +189,7 @@ Example (notice the "50" near the end):
 <br/><br/>
 ### How to change the sheet names?
 
-You must edit almost all of the formulas on the "get_param" sheet. Replace the default sheet names ("sample_log", "iu_param"table") with new names.
+You must edit almost all of the formulas on the "get_param" sheet. Replace the default sheet names ("sample_log", "iu_param"table", etc) with new names.
 
 
 <br/><br/>
