@@ -175,7 +175,7 @@ Example (notice the "Z" near the end):\
 `=IF(B3="", C1, CHAR(65+MATCH(B3, iu_param_table!$B$2:$Z$2, 0)))`
 
 Note:\
-The `CHAR + 65` method can only be used on single character column letters. Colunmns AA and beyond would need a new plan.
+The `CHAR + 65` method can only be used on single character column letters. Columns AA and beyond would need a new plan.
 
 
 <br/><br/>
