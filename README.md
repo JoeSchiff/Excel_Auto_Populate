@@ -1,23 +1,20 @@
 ## How to auto populate a varying / arbitrary / unknown number of cells in Excel without VBA
 
+### Table of Contents
+* [Summary](#Summary)
+* [Tested on](#Tested-on)
+* [Detailed description](#Detailed-description)
+* [FAQ](#FAQ)
 
-<br/>
 
+
+<br/><br/>
 ### Summary:
 Automatically populate cells based on a selection from a dropdown list.
 
 The output can be of **various lengths** and repeated indefinitely:
 
 ![](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/assets/usage.gif)
-
-
-<br/><br/>
-
-### Table of Contents
-* [Summary](#Summary)
-* [Tested on](#Tested-on)
-* [Detailed description](#Detailed-description)
-* [FAQ](#FAQ)
 
 
 
