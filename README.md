@@ -157,7 +157,7 @@ Paste this into the cell next to the industry that we selected on the "sample_lo
 Optional:\
 You may notice that column C of sheet "get_param" has data extending down for all the rows that contain formulas. Unfortunately, there is no easy way of preventing this (due to circular logic errors) without making this example even more complicated. 
 
-I supplied a full version of the workbook I personally use at "spreadsheets/others/complicated_example.xlsm". It contains different formulas, which prevent that column letter from repeating forever, as well as many more features.
+I supplied a full version of the workbook I personally use at "spreadsheets/others/complicated_example.xlsm". It contains different formulas, which prevent that column letter from repeating forever, it allows skipping rows, and many more features.
 
 
 
