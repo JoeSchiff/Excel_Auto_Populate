@@ -8,7 +8,7 @@ Automatically populate cells based on a selection from a dropdown list.
 
 The output can be of **various lengths** and repeated indefinitely:
 
-![](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/assets/usage3.gif)
+![](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/assets/usage.gif)
 
 
 <br/><br/>
