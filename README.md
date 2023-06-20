@@ -34,18 +34,16 @@ There are 3 methods available for achieving this functionality:
 1. Use the VBA workbook provided at [spreadsheets/vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)
    
 2. Use the non-VBA workbooks provided at:\
-  MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
-  LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
+     MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
+     LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
 
 3. Recreate the functionality from scratch using the following walkthrough
 
 
-
-All the following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
-
-
 <br/><br/>
 #### Overview
+All the following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
+
 This example uses 4 industries. Each industry has a unique list of parameters associated with it. The number of parameters in each list varies (between 3 and 14).
 
 What we want is to select an industry from a dropdown list and have Excel automatically populate adjacent cells with the appropriate parameters for that industry. 
