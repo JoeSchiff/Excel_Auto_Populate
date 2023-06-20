@@ -32,15 +32,16 @@ Use the .xlsx format if you're using Excel.
 ## Detailed description
 There are 3 methods for achieving this functionality:
 1. Use the VBA workbook provided at [spreadsheets/vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)
-2. Use the non-VBA workbook [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)\
+   
+2. Use the non-VBA workbooks provided at:
+  MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
+  LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
+
 3. Recreate the functionality from scratch using the following walkthrough
 
 
 
-All the following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the "simple_example" workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
-
-MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)\
-LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)
+All the following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
 
 
 <br/><br/>
