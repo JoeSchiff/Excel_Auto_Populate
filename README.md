@@ -30,10 +30,10 @@ Use the .xlsx format if you're using Excel.
 
 <br/><br/>
 ## Detailed description
-There are 3 methods for achieving this functionality:
+There are 3 methods available for achieving this functionality:
 1. Use the VBA workbook provided at [spreadsheets/vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)
    
-2. Use the non-VBA workbooks provided at:
+2. Use the non-VBA workbooks provided at:\
   MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
   LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
 
