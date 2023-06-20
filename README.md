@@ -42,7 +42,7 @@ There are 3 methods available for achieving this functionality:
 
 <br/><br/>
 #### Overview
-All the following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the workbooks I have provided (rather than starting from scratch) and modifying them to suit your needs.
+All the following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the workbooks I have provided and modifying them to suit your needs, rather than starting from scratch.
 
 This example uses 4 industries. Each industry has a unique list of parameters associated with it. The number of parameters in each list varies (between 3 and 14).
 
