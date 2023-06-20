@@ -31,8 +31,8 @@ Use the .xlsx format if you're using Excel.
 <br/><br/>
 ## Detailed description
 There are 3 methods for achieving this functionality:
-1. Use the VBA workbook provided at [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)\
-2. Use the non-VBA workbooks
+1. Use the VBA workbook provided at [spreadsheets/vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)
+2. Use the non-VBA workbook [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)\
 3. Recreate the functionality from scratch using the following walkthrough
 
 
