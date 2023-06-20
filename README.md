@@ -1,4 +1,4 @@
-## How to auto populate a varying / arbitrary / unknown number of cells in Excel without VBA
+## How to auto populate a varying / arbitrary / unknown number of cells in Excel. Examples with and without VBA
 
 ### Table of Contents
 * [Summary](#Summary)
@@ -197,8 +197,9 @@ No additional steps are necessary.
 
 
 <br/><br/>
-### Why not use VBA?
-You can, if you want to use this technique only at one specific range. An example of this is located at "spreadsheets/others/vba_alt.xlsm". However, I was not able to figure out a way to have my VBA method apply to all cells in a column, while also preserving the format I wanted to use. 
+### An example with VBA?
+An example of this is located at "spreadsheets/others/vba_example.xlsm". More recently this has become my preferred method. I will keep the non-VBA method here in case someone cannot run macros.
+
 
 
 
