@@ -99,10 +99,10 @@ If the cell from step 1 is blank, then repeat what is in the cell above.
 ### 3. Count the total number of rows (parameters) for that column
 Column name: Num of Params
 
-Now we can count the number of items in that column. This will allow us to make our own FOR loop using something similar to a coordinate system. It will work like this:
-Column 3, row 3
-Column 3, row 4
-Column 3, row 5
+Now we can count the number of items in that column. This will allow us to make our own FOR loop using something similar to a coordinate system. It will work like this:\
+Column 3, row 3\
+Column 3, row 4\
+Column 3, row 5\
 (until we reach a blank cell)
 
 To do that, we supply the COUNTA function with a range of cells; the appropriate column starting at row 3 (that's where the data begins) until row 16 (where the data ends for the longest column in the table. If your data has more items, then increase this number).
