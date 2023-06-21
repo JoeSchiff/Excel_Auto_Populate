@@ -4,6 +4,7 @@
 * [Summary](#Summary)
 * [Tested on](#Tested-on)
 * [Detailed description](#Detailed-description)
+* [Walkthrough](#Walkthrough)
 * [FAQ](#FAQ)
 
 
@@ -30,19 +31,19 @@ Use the .xlsx format if you're using Excel.
 
 <br/><br/>
 ## Detailed description
-There are 3 methods available for achieving this functionality:
-1. Use the VBA workbook provided at [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)
-   
-2. Use the non-VBA workbooks provided at:\
+This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar funcuntionality, but use different methods. I prefer the VBA style, but it requires macros to be enabled.
+1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)
+
+2. Non-VBA workbooks:\
      MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
      LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
 
-3. Recreate the functionality from scratch using the following walkthrough
 
 
-<br/><br/>
-#### Overview
-All the following sections provide a walkthrough for recreating this workbook's functionality. However, I strongly suggest using the workbooks I have provided and modifying them to suit your needs, rather than starting from scratch.
+
+<br/><br/><br/>
+## Walkthrough
+All the following sections provide a walkthrough for recreating this workbook's functionality without VBA. However, I strongly suggest using the workbooks I have provided and modifying them to suit your needs, rather than starting from scratch.
 
 This example uses 4 industries. Each industry has a unique list of parameters associated with it. The number of parameters in each list varies (between 3 and 14).
 
@@ -201,9 +202,7 @@ You must edit almost all of the formulas on the "get_param" sheet. Replace the d
 No additional steps are necessary.
 
 
-<br/><br/>
-### An example with VBA?
-An example of this is located at "spreadsheets/others/vba_example.xlsm". More recently this has become my preferred method. I will keep the non-VBA method here in case someone cannot run macros.
+
 
 
 
