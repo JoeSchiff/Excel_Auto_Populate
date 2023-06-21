@@ -32,10 +32,10 @@ Use the .xlsx format if you're using Excel.
 <br/><br/>
 ## Detailed description
 This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar funcuntionality, but use different methods.
-Check the READMEs sheets contained in each workbook.\
+Check the READMEs sheets contained in each workbook.
 
 1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)\
-     The autopopulation is activated by a keyboard shortcut.\
+          The autopopulation is activated by a keyboard shortcut.\
      Requires macros to be enabled.
 
 3. Non-VBA workbooks:\
