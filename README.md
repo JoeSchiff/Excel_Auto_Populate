@@ -1,12 +1,11 @@
 ## How to auto populate a varying / arbitrary / unknown number of cells in Excel. Examples with and without VBA
-
+<br/>
 ### Table of Contents
 * [Summary](#Summary)
 * [Detailed description](#Detailed-description)
 * [Tested on](#Tested-on)
 * [Walkthrough](#Walkthrough)
 * [FAQ](#FAQ)
-
 
 
 <br/><br/>
