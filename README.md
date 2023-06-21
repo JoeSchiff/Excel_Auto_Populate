@@ -23,7 +23,7 @@ The output can be of **various lengths** and repeated indefinitely:
 <br/><br/>
 ## Detailed description
 This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar functionality, but use different methods.
-Check the READMEs sheets contained in each workbook.
+Check the README sheets contained in each workbook.
 
 1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)\
      The autopopulation is activated by a keyboard shortcut.\
@@ -33,7 +33,7 @@ Check the READMEs sheets contained in each workbook.
      MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
      LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
 
-     The autopopulation is activated automatically when an item from the dropdown list is selected.\
+     The autopopulation is activated automatically when an item from the dropdown list is selected.
 
 
 
@@ -47,7 +47,7 @@ Since Excel uses an exclamation mark to designate a sheet name and LibreOffice C
 
 <br/><br/><br/>
 ## Walkthrough
-All the following sections provide a walkthrough for recreating this workbook's functionality without VBA. However, I strongly suggest using the workbooks I have provided and modifying them to suit your needs, rather than starting from scratch.
+All the following sections provide a walkthrough for recreating this workbook's functionality without VBA. However, **I strongly suggest using the workbooks I have provided** and modifying them to suit your needs, rather than starting from scratch.
 
 This example uses 4 industries. Each industry has a unique list of parameters associated with it. The number of parameters in each list varies (between 3 and 14).
 
