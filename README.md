@@ -31,13 +31,18 @@ Use the .xlsx format if you're using Excel.
 
 <br/><br/>
 ## Detailed description
-This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar funcuntionality, but use different methods. I prefer the VBA style, but it requires macros to be enabled.
-1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)
+This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar funcuntionality, but use different methods.
+Check the READMEs sheets contained in each workbook.\
 
-2. Non-VBA workbooks:\
+1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)\
+     The autopopulation is activated by a keyboard shortcut.\
+     Requires macros to be enabled.
+
+3. Non-VBA workbooks:\
      MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
      LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
 
+     The autopopulation is activated automatically when an item from the dropdown list is selected.\
 
 
 
