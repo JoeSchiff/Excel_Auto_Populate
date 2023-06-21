@@ -22,7 +22,7 @@ The output can be of **various lengths** and repeated indefinitely:
 
 <br/><br/>
 ## Detailed description
-This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar funcuntionality, but use different methods.
+This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar functionality, but use different methods.
 Check the READMEs sheets contained in each workbook.
 
 1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)\
