@@ -10,7 +10,7 @@
 
 
 <br/><br/>
-### Summary:
+### Summary
 Automatically populate cells based on a selection from a dropdown list.
 
 The output can be of **various lengths** and repeated indefinitely:
@@ -38,7 +38,7 @@ Check the README sheets contained in each workbook.
 
 
 <br/><br/><br/>
-### Tested on:
+### Tested on
 Microsoft Excel 2016 and LibreOffice Calc 7.1.4.2.
 
 Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions in the "spreadsheets" directory.
@@ -71,7 +71,7 @@ To create a dropdown list click on the Data section (on the ribbon), then Data V
 
 
 <br/><br/>
-### Create "get_param" sheet. The basic order of events for our formulas will be:
+#### Create "get_param" sheet. The basic order of events for our formulas will be:
 1. Get the industry name
 2. Find that industry name in the table and return the column letter
 3. Count the total number of rows (parameters) for that column
@@ -82,7 +82,7 @@ Many of these steps can be combined, but I chose to keep them separate in order 
 
 
 <br/><br/>
-### 1. Get the industry name
+#### 1. Get the industry name
 Column name: Industry
 
 
@@ -93,7 +93,7 @@ This is an easy one. Get the industry from the sample_log sheet. If the correspo
 
 
 <br/><br/>
-### 2. Find that industry name in the iu_param_table and return the column letter
+#### 2. Find that industry name in the iu_param_table and return the column letter
 Column name: Column Letter
 
 Use the MATCH function and supply it with the industry name and the table from the sheet named "iu_param_table". The trailing zero specifies an exact match.
@@ -106,7 +106,7 @@ If the cell from step 1 is blank, then repeat what is in the cell above.
 
 
 <br/><br/>
-### 3. Count the total number of rows (parameters) for that column
+#### 3. Count the total number of rows (parameters) for that column
 Column name: Num of Params
 
 Now we can count the number of items in that column. This will allow us to make our own FOR loop using something similar to a coordinate system. It will work like this:\
@@ -132,7 +132,7 @@ Now we have the number of parameters for that column.
 
 
 <br/><br/>
-### 4. Count down from step 3
+#### 4. Count down from step 3
 Column name: Remaining Num of Params
 
 This step will be used to loop through all the parameters. We’ll start with the number supplied from the previous column and decrement it until we reach zero (no parameters remaining).
@@ -143,7 +143,7 @@ This step will be used to loop through all the parameters. We’ll start with th
 
 
 <br/><br/>
-### 5. Lookup the parameter using the number from step 4 and the column letter from step 2
+#### 5. Lookup the parameter using the number from step 4 and the column letter from step 2
 Column name: Parameter
 
 We are using the column letter supplied by cell C3 and the row number supplied by E3. We have to add 2 to it because the data in the table starts on row 3. Again, we are using the INDIRECT function to refer to the sheet named "iu_param_table".
@@ -156,7 +156,7 @@ And finally this should give a parameter for that industry. Use AutoFill to exte
 
 
 <br/><br/>
-### Display the results on the sample_log sheet
+#### Display the results on the sample_log sheet
 Paste this into the cell next to the industry that we selected on the "sample_log" sheet. Extend the formula into the rows below using the AutoFill feature. If your data on the sample_log sheet doesn't start on row 3 then adjust accordingly. 
 
 `=get_param!F3`
@@ -173,9 +173,9 @@ I supplied a full version of the workbook I personally use at "spreadsheets/othe
 
 
 <br/><br/><br/>
-## FAQ
+### FAQ
 
-### How to add more columns to iu_param_table?
+#### How to add more columns to iu_param_table?
 
 You must edit the formula in "Column Letter" (get_param sheet) to include more columns in the iu_param_table.\
 Example (notice the "Z" near the end):\
@@ -186,7 +186,7 @@ The `CHAR + 65` method can only be used on single character column letters. Colu
 
 
 <br/><br/>
-### How to add more rows to iu_param_table?
+#### How to add more rows to iu_param_table?
 
 You must edit the formula in "Num of Params" (get_param sheet) to include more rows in the iu_param_table.\
 Example (notice the "50" near the end):\
@@ -195,13 +195,13 @@ Example (notice the "50" near the end):\
 
 
 <br/><br/>
-### How to change the sheet names?
+#### How to change the sheet names?
 
 You must edit almost all of the formulas on the "get_param" sheet. Replace the default sheet names ("sample_log", "iu_param"table", etc) with new names.
 
 
 <br/><br/>
-### How to change the column header names?
+#### How to change the column header names?
 
 No additional steps are necessary.
 
