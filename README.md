@@ -2,8 +2,8 @@
 
 ### Table of Contents
 * [Summary](#Summary)
-* [Tested on](#Tested-on)
 * [Detailed description](#Detailed-description)
+* [Tested on](#Tested-on)
 * [Walkthrough](#Walkthrough)
 * [FAQ](#FAQ)
 
@@ -20,29 +20,28 @@ The output can be of **various lengths** and repeated indefinitely:
 
 
 
-<br/><br/><br/>
-### Tested on:
-Microsoft Excel 2016 and LibreOffice Calc 7.1.4.2.\
-Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions in the "spreadsheets" directory.
-
-Use the .xlsx format if you're using Excel.
-
-
-
 <br/><br/>
 ## Detailed description
 This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar funcuntionality, but use different methods.
 Check the READMEs sheets contained in each workbook.
 
 1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)\
-          The autopopulation is activated by a keyboard shortcut.\
+     The autopopulation is activated by a keyboard shortcut.\
      Requires macros to be enabled.
 
-3. Non-VBA workbooks:\
+2. Non-VBA workbooks:\
      MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
      LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
 
      The autopopulation is activated automatically when an item from the dropdown list is selected.\
+
+
+
+<br/><br/><br/>
+### Tested on:
+Microsoft Excel 2016 and LibreOffice Calc 7.1.4.2.
+
+Since Excel uses an exclamation mark to designate a sheet name and LibreOffice Calc uses a period, I supplied two versions in the "spreadsheets" directory.
 
 
 
