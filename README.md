@@ -32,7 +32,7 @@ Check the README sheets contained in each workbook.
 
 
 2. Non-VBA workbooks:\
-     MS Excel: [spreadsheets/non_vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/non_vba_example.xlsx)\
+     MS Excel: [spreadsheets/non_vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/raw/master/spreadsheets/non_vba_example.xlsx)\
      LibreOffice Calc: [spreadsheets/non_vba_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/non_vba_example.ods)
 
      The autopopulation is activated automatically when an item from the dropdown list is selected.
