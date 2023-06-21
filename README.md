@@ -26,14 +26,14 @@ The output can be of **various lengths** and repeated indefinitely:
 This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar functionality, but use different methods.
 Check the README sheets contained in each workbook.
 
-1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/vba_example.xlsm)\
+1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/raw/master/spreadsheets/vba_example.xlsm)\
      The autopopulation is activated by a keyboard shortcut.\
      Requires macros to be enabled.
 
 
 2. Non-VBA workbooks:\
      MS Excel: [spreadsheets/non_vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/raw/master/spreadsheets/non_vba_example.xlsx)\
-     LibreOffice Calc: [spreadsheets/non_vba_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/non_vba_example.ods)
+     LibreOffice Calc: [spreadsheets/non_vba_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/raw/master/spreadsheets/non_vba_example.ods)
 
      The autopopulation is activated automatically when an item from the dropdown list is selected.
 
