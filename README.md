@@ -24,12 +24,11 @@ The output can be of **various lengths** and repeated indefinitely:
 <br/><br/>
 ### Detailed description
 This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar functionality, but use different methods.
-Check the README sheets contained in each workbook.
 
 1. VBA workbook: [spreadsheets/vba_example.xlsm](https://github.com/JoeUgly/Excel_Auto_Populate/raw/master/spreadsheets/vba_example.xlsm)\
      The autopopulation is activated by a keyboard shortcut.\
-     Requires macros to be enabled.
-
+     Requires macros to be enabled.\
+     Check the README sheet contained in the workbook.
 
 2. Non-VBA workbooks:\
      MS Excel: [spreadsheets/non_vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/raw/master/spreadsheets/non_vba_example.xlsx)\
