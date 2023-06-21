@@ -31,8 +31,8 @@ Check the README sheets contained in each workbook.
      Requires macros to be enabled.
 
 2. Non-VBA workbooks:\
-     MS Excel: [spreadsheets/simple_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.xlsx)\
-     LibreOffice Calc: [spreadsheets/simple_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/simple_example.ods)
+     MS Excel: [spreadsheets/non_vba_example.xlsx](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/non_vba_example.xlsx)\
+     LibreOffice Calc: [spreadsheets/non_vba_example.ods](https://github.com/JoeUgly/Excel_Auto_Populate/blob/master/spreadsheets/non_vba_example.ods)
 
      The autopopulation is activated automatically when an item from the dropdown list is selected.
 
