@@ -21,7 +21,7 @@ The output can be of **various lengths** and repeated indefinitely:
 
 
 <br/><br/>
-## Detailed description
+### Detailed description
 This repo has 2 different styles of worksheets available: VBA and non-VBA. Both styles achieve similar functionality, but use different methods.
 Check the README sheets contained in each workbook.
 
@@ -46,7 +46,7 @@ Since Excel uses an exclamation mark to designate a sheet name and LibreOffice C
 
 
 <br/><br/><br/>
-## Walkthrough
+### Walkthrough
 All the following sections provide a walkthrough for recreating this workbook's functionality without VBA. However, **I strongly suggest using the workbooks I have provided** and modifying them to suit your needs, rather than starting from scratch.
 
 This example uses 4 industries. Each industry has a unique list of parameters associated with it. The number of parameters in each list varies (between 3 and 14).
